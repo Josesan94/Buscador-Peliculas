@@ -1,0 +1,32 @@
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list
+{
+  list-style: none;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1.5fr)) ;
+  gap: 20px;
+}
